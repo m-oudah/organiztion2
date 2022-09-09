@@ -7,14 +7,13 @@
 
 
 
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center">
-            <h1 class="display-4 text-white animated slideInDown mb-4">{{__('trans.Success Stories')}}</h1>
+ <!-- Page Header Start -->
+ <div class="container-fluid header-bg py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <h1 class="display-4 text-white mb-3 animated slideInDown">{{__('trans.Success Stories')}}</h1>
             <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
+                <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item"><a class="text-white" href="{{route('index',$lang)}}">{{__('trans.home')}}</a></li>
-                    <li class="breadcrumb-item"></li>
                     <li class="breadcrumb-item text-primary active" aria-current="page">{{__('trans.Success Stories')}}</li>
                 </ol>
             </nav>
@@ -23,108 +22,106 @@
     <!-- Page Header End -->
 
 
-
-    <!-- Success Stories Start -->
+<!-- Success Stories Start -->
 <div class="container-xxl py-5">
     <div class="container">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-
-            <h1 class="display-6 mb-5">{{__('trans.Lets Meet With Our Ordinary Soldiers')}}</h1>
-        </div>
+       
         <div class="row g-4">
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="team-item position-relative rounded overflow-hidden">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="{{asset('assets/img/team-1.jpg')}}" alt="">
-                    </div>
-                    <div class="team-text bg-light text-center p-4">
-                        <h5><a href="{{route('storyDetails',$lang) }}">{{__('trans.article title')}}</a></h5>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="membership-item position-relative">
+                    <img class="img-fluid" src="{{asset('assets/img/success.jpg')}}" alt="">
+                    <h1 class="display-1"></h1>
+                    <h5 class="text-white mt-6 mb-3">{{__('trans.Program Category')}}</h5>
+                    <h3 class="text-primary mb-2">{{__('trans.article title')}}1</h3>
 
-                    </div>
+                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('storyDetails',$lang)}}">
+                        {{__('trans.View')}}</a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="team-item position-relative rounded overflow-hidden">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="{{asset('assets/img/team-1.jpg')}}" alt="">
-                    </div>
-                    <div class="team-text bg-light text-center p-4">
-                        <h5><a href="{{route('storyDetails',$lang) }}">{{__('trans.article title')}}</a></h5>
 
-                    </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="membership-item position-relative">
+                    <img class="img-fluid" src="{{asset('assets/img/success.jpg')}}" alt="">
+                    <h1 class="display-1"></h1>
+                    <h5 class="text-white mt-6 mb-3">{{__('trans.Program Category')}}</h5>
+                    <h3 class="text-primary mb-2">{{__('trans.article title')}}2</h3>
+
+                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('storyDetails',$lang)}}">
+                        {{__('trans.View')}}</a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="team-item position-relative rounded overflow-hidden">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="{{asset('assets/img/team-4.jpg')}}" alt="">
-                    </div>
-                    <div class="team-text bg-light text-center p-4">
-                        <h5><a href="{{route('storyDetails',$lang) }}">{{__('trans.article title')}}</a></h5>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="membership-item position-relative">
+                    <img class="img-fluid" src="{{asset('assets/img/success.jpg')}}" alt="">
+                    <h1 class="display-1"></h1>
+                    <h5 class="text-white mt-6 mb-3">{{__('trans.Program Category')}}</h5>
+                    <h3 class="text-primary mb-2">{{__('trans.article title')}}1</h3>
 
-                    </div>
+                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('storyDetails',$lang)}}">
+                        {{__('trans.View')}}</a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="team-item position-relative rounded overflow-hidden">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="{{asset('assets/img/team-2.jpg')}}" alt="">
-                    </div>
-                    <div class="team-text bg-light text-center p-4">
-                        <h5><a href="{{route('storyDetails',$lang) }}">{{__('trans.article title')}}</a></h5>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="membership-item position-relative">
+                    <img class="img-fluid" src="{{asset('assets/img/success.jpg')}}" alt="">
+                    <h1 class="display-1"></h1>
+                    <h5 class="text-white mt-6 mb-3">{{__('trans.Program Category')}}</h5>
+                    <h3 class="text-primary mb-2">{{__('trans.article title')}}2</h3>
 
-                    </div>
+                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('storyDetails',$lang)}}">
+                        {{__('trans.View')}}</a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="team-item position-relative rounded overflow-hidden">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="{{asset('assets/img/team-1.jpg')}}" alt="">
-                    </div>
-                    <div class="team-text bg-light text-center p-4">
-                        <h5><a href="{{route('storyDetails',$lang) }}">{{__('trans.article title')}}</a></h5>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="membership-item position-relative">
+                    <img class="img-fluid" src="{{asset('assets/img/success.jpg')}}" alt="">
+                    <h1 class="display-1"></h1>
+                    <h5 class="text-white mt-6 mb-3">{{__('trans.Program Category')}}</h5>
+                    <h3 class="text-primary mb-2">{{__('trans.article title')}}3</h3>
 
-                    </div>
+                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('storyDetails',$lang)}}">
+                        {{__('trans.View')}}</a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="team-item position-relative rounded overflow-hidden">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="{{asset('assets/img/team-2.jpg')}}" alt="">
-                    </div>
-                    <div class="team-text bg-light text-center p-4">
-                        <h5><a href="{{route('storyDetails',$lang) }}">{{__('trans.article title')}}</a></h5>
 
-                    </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="membership-item position-relative">
+                    <img class="img-fluid" src="{{asset('assets/img/success.jpg')}}" alt="">
+                    <h1 class="display-1"></h1>
+                    <h5 class="text-white mt-6 mb-3">{{__('trans.Program Category')}}</h5>
+                    <h3 class="text-primary mb-2">{{__('trans.article title')}}2</h3>
+
+                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('storyDetails',$lang)}}">
+                        {{__('trans.View')}}</a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="team-item position-relative rounded overflow-hidden">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="{{asset('assets/img/team-3.jpg')}}" alt="">
-                    </div>
-                    <div class="team-text bg-light text-center p-4">
-                        <h5><a href="{{route('storyDetails',$lang) }}">{{__('trans.article title')}}</a></h5>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="membership-item position-relative">
+                    <img class="img-fluid" src="{{asset('assets/img/success.jpg')}}" alt="">
+                    <h1 class="display-1"></h1>
+                    <h5 class="text-white mt-6 mb-3">{{__('trans.Program Category')}}</h5>
+                    <h3 class="text-primary mb-2">{{__('trans.article title')}}2</h3>
 
-                    </div>
+                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('storyDetails',$lang)}}">
+                        {{__('trans.View')}}</a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                <div class="team-item position-relative rounded overflow-hidden">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="{{asset('assets/img/team-4.jpg')}}" alt="">
-                    </div>
-                    <div class="team-text bg-light text-center p-4">
-                        <h5><a href="{{route('storyDetails',$lang) }}">{{__('trans.article title')}}</a></h5>
 
-                    </div>
+            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="membership-item position-relative">
+                    <img class="img-fluid" src="{{asset('assets/img/success.jpg')}}" alt="">
+                    <h1 class="display-1"></h1>
+                    <h5 class="text-white mt-6 mb-3">{{__('trans.Program Category')}}</h5>
+                    <h3 class="text-primary mb-2">{{__('trans.article title')}}2</h3>
+
+                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('storyDetails',$lang)}}">
+                        {{__('trans.View')}}</a>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <!-- Success Stories End -->
-
 
 
 

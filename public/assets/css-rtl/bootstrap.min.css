@@ -2705,7 +2705,7 @@ textarea.form-control-lg {
 .form-floating>label {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     height: 100%;
     padding: 1rem .75rem;
     pointer-events: none;
@@ -5132,8 +5132,10 @@ fieldset:disabled .btn {
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
-    float: left;
+    float: right;
     padding-right: .5rem;
+    padding-left: .5rem;
+
     color: #6c757d;
     content: var(--bs-breadcrumb-divider, "/")
         /* rtl: var(--bs-breadcrumb-divider, "/") */
@@ -10065,11 +10067,11 @@ fieldset:disabled .btn {
     }
 
     .text-md-start {
-        text-align: left !important
+        text-align: right !important
     }
 
     .text-md-end {
-        text-align: right !important
+        text-align: left !important
     }
 
     .text-md-center {

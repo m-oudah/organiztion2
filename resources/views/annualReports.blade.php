@@ -13,7 +13,6 @@
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item"><a class="text-white" href="{{route('index',$lang)}}">{{__('trans.home')}}</a></li>
-                    <li class="breadcrumb-item"></li>
                     <li class="breadcrumb-item text-primary active" aria-current="page">{{__('trans.Annual Reports')}}</li>
                 </ol>
             </nav>
@@ -24,32 +23,32 @@
 
 
 <!-- Articles Start -->
-<div class="container-xxl bg-light my-5 py-5">
+<div class="container my-5 ">
     <div class="container py-5">
        
-        <div class="row g-4 justify-content-center">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="row g-4 ">
+            <div class="col-lg-4 col-md-6 wow  fadeInUp" data-wow-delay="0.1s">
                 <div
-                    class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                    class="causes-item d-flex flex-column bg-light  border-top border-5 border-primary rounded-top overflow-hidden h-100">
                     <div class="text-center p-4 pt-0">
                         <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                             <small>15 May 2022</small>
                         </div>
-                        <h5 class="mb-3">{{__('trans.article title')}}</h5>
-                        <p>{{__('trans.subarticle')}}</p>
+                        <h5 class="mb-3">{{__('trans.report title')}}</h5>
+                        <p><a href="#">{{__('trans.download file')}}</a>
                     </div>
                     
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div
-                    class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                    class="causes-item d-flex flex-column bg-light  border-top border-5 border-primary rounded-top overflow-hidden h-100">
                     <div class="text-center p-4 pt-0">
                         <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                             <small>15 May 2022</small>
                         </div>
-                        <h5 class="mb-3">{{__('trans.article title')}}</h5>
-                        <p>{{__('trans.subarticle')}}</p>
+                        <h5 class="mb-3">{{__('trans.report title')}}</h5>
+                        <p><a href="#">{{__('trans.download file')}}</a>
 
                     </div>
                    
@@ -57,13 +56,13 @@
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div
-                    class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                    class="causes-item d-flex flex-column bg-light border-top border-5 border-primary rounded-top overflow-hidden h-100">
                     <div class="text-center p-4 pt-0">
                         <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                             <small>15 May 2022</small>
                         </div>
-                        <h5 class="mb-3">{{__('trans.article title')}}</h5>
-                        <p>{{__('trans.subarticle')}}</p>
+                        <h5 class="mb-3">{{__('trans.report title')}}</h5>
+                        <p><a href="#">{{__('trans.download file')}}</a>
 
                     </div>
                     
@@ -71,13 +70,13 @@
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div
-                    class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                    class="causes-item d-flex flex-column bg-light border-top border-5 border-primary rounded-top overflow-hidden h-100">
                     <div class="text-center p-4 pt-0">
                         <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                             <small>15 May 2022</small>
                         </div>
-                        <h5 class="mb-3">{{__('trans.article title')}}</h5>
-                        <p>{{__('trans.subarticle')}}</p>
+                        <h5 class="mb-3">{{__('trans.report title')}}</h5>
+                        <p><a href="#">{{__('trans.download file')}}</a>
 
                     </div>
                     
@@ -85,13 +84,13 @@
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div
-                    class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                    class="causes-item d-flex flex-column bg-light border-top border-5 border-primary rounded-top overflow-hidden h-100">
                     <div class="text-center p-4 pt-0">
                         <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                             <small>15 May 2022</small>
                         </div>
-                        <h5 class="mb-3">{{__('trans.article title')}}</h5>
-                        <p>{{__('trans.subarticle')}}</p>
+                        <h5 class="mb-3">{{__('trans.report title')}}</h5>
+                        <p><a href="#">{{__('trans.download file')}}</a>
 
                     </div>
                     
@@ -99,13 +98,13 @@
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div
-                    class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                    class="causes-item d-flex flex-column bg-light border-top border-5 border-primary rounded-top overflow-hidden h-100">
                     <div class="text-center p-4 pt-0">
                         <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                             <small>15 May 2022</small>
                         </div>
-                        <h5 class="mb-3">{{__('trans.article title')}}</h5>
-                        <p>{{__('trans.subarticle')}}</p>
+                        <h5 class="mb-3">{{__('trans.report title')}}</h5>
+                        <p><a href="#">{{__('trans.download file')}}</a>
 
                     </div>
                     
@@ -113,13 +112,13 @@
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div
-                    class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                    class="causes-item d-flex flex-column bg-light border-top border-5 border-primary rounded-top overflow-hidden h-100">
                     <div class="text-center p-4 pt-0">
                         <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                             <small>15 May 2022</small>
                         </div>
-                        <h5 class="mb-3">{{__('trans.article title')}}</h5>
-                        <p>{{__('trans.subarticle')}}</p>
+                        <h5 class="mb-3">{{__('trans.report title')}}</h5>
+                        <p><a href="#">{{__('trans.download file')}}</a>
 
                     </div>
                     

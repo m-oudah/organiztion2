@@ -6,15 +6,13 @@
 @section('content')
 
 
-
-<!-- Page Header Start -->
-<div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container text-center">
-            <h1 class="display-4 text-white animated slideInDown mb-4">{{__('trans.Contact')}}</h1>
+ <!-- Page Header Start -->
+ <div class="container-fluid header-bg py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <h1 class="display-4 text-white mb-3 animated slideInDown">{{__('trans.Contact')}}</h1>
             <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
+                <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item"><a class="text-white" href="{{route('index',$lang)}}">{{__('trans.home')}}</a></li>
-                    <li class="breadcrumb-item"> </li>
                     <li class="breadcrumb-item text-primary active" aria-current="page">{{__('trans.Contact')}}</li>
                 </ol>
             </nav>
@@ -22,9 +20,46 @@
     </div>
     <!-- Page Header End -->
 
+
     <!-- Contact Start -->
     <div class="container-xxl py-5">
         <div class="container">
+        <div class="row g-4 mb-5">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="h-100 bg-light d-flex align-items-center p-5">
+                        <div class="btn-lg-square bg-white flex-shrink-0">
+                            <i class="fa fa-map-marker-alt text-primary"></i>
+                        </div>
+                        <div class="ms-4">
+                            <p class="mb-2"><span class="text-primary me-2">#</span>{{__('trans.Address')}}</p>
+                            <h6 class="mb-0">{{__('trans.location')}}</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="h-100 bg-light d-flex align-items-center p-5">
+                        <div class="btn-lg-square bg-white flex-shrink-0">
+                            <i class="fa fa-phone-alt text-primary"></i>
+                        </div>
+                        <div class="ms-4">
+                            <p class="mb-2"><span class="text-primary me-2">#</span>Call Now</p>
+                            <h5 class="mb-0">+012 345 6789</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100 bg-light d-flex align-items-center p-5">
+                        <div class="btn-lg-square bg-white flex-shrink-0">
+                            <i class="fa fa-envelope-open text-primary"></i>
+                        </div>
+                        <div class="ms-4">
+                            <p class="mb-2"><span class="text-primary me-2">#</span>Mail Now</p>
+                            <h5 class="mb-0">info@example.com</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <h1 class="display-6 mb-5">{{__('trans.Get in Touch')}}</h1>

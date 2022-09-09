@@ -67,7 +67,7 @@ return [
 'PortfolioSub'=>'Some of Our preveios work',
 'Get In Touch'=>'Dont hestitate to contact us',
 'Our Blog'=>'Our Blogs & Articles',
-'Our Blog Sub'=>'Latest blogs and activities of our organization',
+'Our Blog Sub'=>'Our latest news and activities ',
 'About Our organization'=>'About Our organization',
 'aboutdetails'=>"details about our organization details about our organization details about our organization details 
                     about our organization details about our organization details about our organization details about our organization details 
@@ -113,9 +113,19 @@ return [
 'location'=>'Country, City, street no.',
 'Program Details'=>'Program Details',
 'Success Story Details'=>'Success Story Details',
-''=>'',
-''=>'',
 
+'category'=>'Category',
+'report title'=>'Report Title in English',
+'download file'=>'Press here to view the report',
+'other programs'=>'Other Programs',
+'Awards'=>'Awards',
+'Working Countries'=>'Countries we are',
+'Satisfied Clients'=>'Sateisfied Clients',
+'Achieved Projects'=>'Achieved projects',
+'Follow Us On Social Media'=>'Follow us on social media',
+''=>'',
+''=>'',
+''=>'',
 
 
 

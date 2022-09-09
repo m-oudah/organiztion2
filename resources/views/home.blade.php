@@ -60,24 +60,24 @@
     <div class="container py-5">
         <div class="row g-4">
             <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-                <i class="fa fa-paw fa-3x text-primary mb-3"></i>
-                <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
-                <p class="text-white mb-0">Total Animal</p>
+                <i class="fas fa-globe fa-3x text-primary mb-3"></i>
+                <h1 class="text-white mb-2" data-toggle="counter-up">12</h1>
+                <h3 class="text-white mb-0">{{__('trans.Working Countries')}}</h3>
             </div>
             <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
                 <i class="fa fa-users fa-3x text-primary mb-3"></i>
-                <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
-                <p class="text-white mb-0">Daily Vigitors</p>
+                <h1 class="text-white mb-2" data-toggle="counter-up">30</h1>
+                <h3 class="text-white mb-0">{{__('trans.Satisfied Clients')}}</h3>
             </div>
             <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
                 <i class="fa fa-certificate fa-3x text-primary mb-3"></i>
-                <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
-                <p class="text-white mb-0">Total Membership</p>
+                <h1 class="text-white mb-2" data-toggle="counter-up">120</h1>
+                <h3 class="text-white mb-0">{{__('trans.Achieved Projects')}}</h3>
             </div>
             <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
                 <i class="fa fa-shield-alt fa-3x text-primary mb-3"></i>
-                <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
-                <p class="text-white mb-0">Save Wild Life</p>
+                <h1 class="text-white mb-2" data-toggle="counter-up">20</h1>
+                <h3 class="text-white mb-0">{{__('trans.Awards')}}</h3>
             </div>
         </div>
     </div>
@@ -101,7 +101,7 @@
         <div class="row g-4">
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="membership-item position-relative">
-                    <img class="img-fluid" src="{{asset('assets/img/animal-lg-1.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{asset('assets/img/success.jpg')}}" alt="">
                     <h1 class="display-1"></h1>
                     <h5 class="text-white mt-6 mb-3">{{__('trans.Program Category')}}</h5>
                     <h3 class="text-primary mb-4">{{__('trans.service title')}}</h3>
@@ -113,7 +113,7 @@
 
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="membership-item position-relative">
-                    <img class="img-fluid" src="{{asset('assets/img/animal-lg-2.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{asset('assets/img/success.jpg')}}" alt="">
                     <h1 class="display-1"></h1>
                     <h5 class="text-white mt-6 mb-3">{{__('trans.Program Category')}}</h5>
                     <h3 class="text-primary mb-4">{{__('trans.service title')}}</h3>
@@ -124,7 +124,7 @@
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="membership-item position-relative">
-                    <img class="img-fluid" src="{{asset('assets/img/animal-lg-3.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{asset('assets/img/success.jpg')}}" alt="">
                     <h1 class="display-1"></h1>
                     <h5 class="text-white mt-6 mb-3">{{__('trans.Program Category')}}</h5>
                     <h3 class="text-primary mb-4">{{__('trans.service title')}}</h3>
@@ -156,9 +156,9 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="row g-4">
                     <div class="col-12">
-                        <a class="animal-item" href="{{asset('assets/img/animal-md-1.jpg')}}" data-lightbox="animal">
+                        <a class="animal-item" href="{{asset('assets/img/article-1.jpg')}}" data-lightbox="animal">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('assets/img/animal-md-1.jpg')}}" alt="">
+                                <img class="img-fluid" style="min-height:240px" src="{{asset('assets/img/article-1.jpg')}}" alt="">
                                 <div class="animal-text p-4">
                                     <p class="text-white small text-uppercase mb-0">{{__('trans.category')}}</p>
                                     <h5 class="text-white mb-0">{{__('trans.prev work title')}}</h5>
@@ -172,9 +172,9 @@
              <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="row g-4">
                     <div class="col-12">
-                        <a class="animal-item" href="{{asset('assets/img/animal-md-2.jpg')}}" data-lightbox="animal">
+                        <a class="animal-item" href="{{asset('assets/img/article-2.jpg')}}" data-lightbox="animal">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('assets/img/animal-md-2.jpg')}}" alt="">
+                                <img class="img-fluid" style="min-height:240px" src="{{asset('assets/img/article-2.jpg')}}" alt="">
                                 <div class="animal-text p-4">
                                     <p class="text-white small text-uppercase mb-0">{{__('trans.category')}}</p>
                                     <h5 class="text-white mb-0">{{__('trans.prev work title')}}</h5>
@@ -187,9 +187,9 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="row g-4">
                     <div class="col-12">
-                        <a class="animal-item" href="{{asset('assets/img/animal-md-3.jpg')}}" data-lightbox="animal">
+                        <a class="animal-item" href="{{asset('assets/img/article-3.jpg')}}" data-lightbox="animal">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('assets/img/animal-md-3.jpg')}}" alt="">
+                                <img class="img-fluid" style="min-height:240px" src="{{asset('assets/img/article-3.jpg')}}" alt="">
                                 <div class="animal-text p-4">
                                     <p class="text-white small text-uppercase mb-0">{{__('trans.category')}}</p>
                                     <h5 class="text-white mb-0">{{__('trans.prev work title')}}</h5>
@@ -202,9 +202,9 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                 <div class="row g-4">
                     <div class="col-12">
-                        <a class="animal-item" href="{{asset('assets/img/animal-md-1.jpg')}}" data-lightbox="animal">
+                        <a class="animal-item" href="{{asset('assets/img/article-1.jpg')}}" data-lightbox="animal">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('assets/img/animal-md-1.jpg')}}" alt="">
+                                <img class="img-fluid" style="min-height:240px" src="{{asset('assets/img/article-1.jpg')}}" alt="">
                                 <div class="animal-text p-4">
                                     <p class="text-white small text-uppercase mb-0">{{__('trans.category')}}</p>
                                     <h5 class="text-white mb-0">{{__('trans.prev work title')}}</h5>
@@ -217,9 +217,9 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="row g-4">
                     <div class="col-12">
-                        <a class="animal-item" href="{{asset('assets/img/animal-md-3.jpg')}}" data-lightbox="animal">
+                        <a class="animal-item" href="{{asset('assets/img/article-3.jpg')}}" data-lightbox="animal">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('assets/img/animal-md-3.jpg')}}" alt="">
+                                <img class="img-fluid" style="min-height:240px" src="{{asset('assets/img/article-3.jpg')}}" alt="">
                                 <div class="animal-text p-4">
                                     <p class="text-white small text-uppercase mb-0">{{__('trans.category')}}</p>
                                     <h5 class="text-white mb-0">{{__('trans.prev work title')}}</h5>
@@ -232,9 +232,9 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                 <div class="row g-4">
                     <div class="col-12">
-                        <a class="animal-item" href="{{asset('assets/img/animal-md-2.jpg')}}" data-lightbox="animal">
+                        <a class="animal-item" href="{{asset('assets/img/article-2.jpg')}}" data-lightbox="animal">
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('assets/img/animal-md-2.jpg')}}" alt="">
+                                <img class="img-fluid" style="min-height:240px" src="{{asset('assets/img/article-2.jpg')}}" alt="">
                                 <div class="animal-text p-4">
                                     <p class="text-white small text-uppercase mb-0">{{__('trans.category')}}</p>
                                     <h5 class="text-white mb-0">{{__('trans.prev work title')}}</h5>
@@ -384,9 +384,9 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="row g-4">
                     <div class="col-12">
-                        <a class="animal-item" href="{{asset('assets/img/animal-md-1.jpg')}}" data-lightbox="animal">
+                        <a class="animal-item" href="{{route('articleDetails',$lang)}}" >
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('assets/img/animal-md-1.jpg')}}" alt="">
+                                <img class="img-fluid" style="min-height:240px" src="{{asset('assets/img/article-1.jpg')}}" alt="">
                                 <div class="animal-text p-4">
                                     <p class="text-white small text-uppercase mb-0">{{__('trans.category')}}</p>
                                     <h5 class="text-white mb-0">{{__('trans.article title')}}</h5>
@@ -400,9 +400,9 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="row g-4">
                     <div class="col-12">
-                        <a class="animal-item" href="{{asset('assets/img/animal-md-2.jpg')}}" data-lightbox="animal">
+                        <a class="animal-item" href="{{route('articleDetails',$lang)}}" >
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('assets/img/animal-md-2.jpg')}}" alt="">
+                                <img class="img-fluid" style="min-height:240px" src="{{asset('assets/img/article-2.jpg')}}" alt="">
                                 <div class="animal-text p-4">
                                     <p class="text-white small text-uppercase mb-0">{{__('trans.category')}}</p>
                                     <h5 class="text-white mb-0">{{__('trans.article title')}}</h5>
@@ -415,9 +415,9 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="row g-4">
                     <div class="col-12">
-                        <a class="animal-item" href="{{asset('assets/img/animal-md-3.jpg')}}" data-lightbox="animal">
+                        <a class="animal-item" href="{{route('articleDetails',$lang)}}" >
                             <div class="position-relative">
-                                <img class="img-fluid" src="{{asset('assets/img/animal-md-1.jpg')}}" alt="">
+                                <img class="img-fluid" style="min-height:240px" src="{{asset('assets/img/article-1.jpg')}}" alt="">
                                 <div class="animal-text p-4">
                                     <p class="text-white small text-uppercase mb-0">{{__('trans.category')}}</p>
                                     <h5 class="text-white mb-0">{{__('trans.article title')}}</h5>
@@ -434,53 +434,6 @@
 
 
 <!-- Success Stories Start -->
-<!-- <div class="container-xxl py-5">
-    <div class="container">
-        <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s"> {{ __('trans.Success Stories')}}</h1>
-        <div class="owl-carousel testimonial-carousel wow fadeInUp" style="direction:ltr;" data-wow-delay="0.1s">
-            <div class="testimonial-item text-center">
-                <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
-                    src="{{asset('assets/img/testimonial-1.jpg')}}" style="width: 200px; height: 200px;">
-                <div class="testimonial-text rounded text-center p-4">
-                    <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut
-                        diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.
-                    </p>
-                    <h5 class="mb-1">{{__('trans.article title')}}1</h5>
-                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('storyDetails',$lang)}}">
-                        {{__('trans.View')}}</a>
-                </div>
-            </div>
-            <div class="testimonial-item text-center">
-                <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
-                    src="{{asset('assets/img/testimonial-2.jpg')}}" style="width: 200px; height: 200px;">
-                <div class="testimonial-text rounded text-center p-4">
-                    <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut
-                        diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.
-                    </p>
-                    <h5 class="mb-1">{{__('trans.article title')}}2</h5>
-                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('storyDetails',$lang)}}">
-                        {{__('trans.View')}}</a>
-                </div>
-            </div>
-            <div class="testimonial-item text-center">
-                <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4"
-                    src="{{asset('assets/img/testimonial-3.jpg')}}" style="width: 200px; height: 200px;">
-                <div class="testimonial-text rounded text-center p-4">
-                    <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut
-                        diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.
-                    </p>
-                    <h5 class="mb-1">{{__('trans.article title')}}3</h5>
-                        <a class="btn btn-outline-light px-4 mt-3" href="{{route('storyDetails',$lang)}}">
-                            {{__('trans.View')}}</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-<!-- Success Stories End -->
-
-
-<!-- Success Stories Start -->
 <div class="container-xxl py-5">
     <div class="container">
         <div class="row g-5 mb-5 align-items-end wow fadeInUp" data-wow-delay="0.1s">
@@ -489,42 +442,42 @@
                 <h1 class="display-5 mb-0"> <span class="text-primary">{{__('trans.Lets Meet With Our Ordinary Soldiers')}}</span></h1>
             </div>
             <div class="col-lg-6 text-lg-end">
-                <!-- <a class="btn btn-primary py-3 px-5"
-                    href="{{route('programs',$lang)}}">{{__('trans.View More Services')}}</a> -->
+                <a class="btn btn-primary py-3 px-5"
+                    href="{{route('successStories',$lang)}}">{{__('trans.View More')}}</a>
             </div>
         </div>
         <div class="row g-4">
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="membership-item position-relative">
-                    <img class="img-fluid" src="{{asset('assets/img/animal-lg-1.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{asset('assets/img/success.jpg')}}" alt="">
                     <h1 class="display-1"></h1>
                     <h5 class="text-white mt-6 mb-3">{{__('trans.Program Category')}}</h5>
                     <h3 class="text-primary mb-2">{{__('trans.article title')}}1</h3>
 
-                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('programDetails',$lang)}}">
+                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('storyDetails',$lang)}}">
                         {{__('trans.View')}}</a>
                 </div>
             </div>
 
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="membership-item position-relative">
-                    <img class="img-fluid" src="{{asset('assets/img/animal-lg-2.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{asset('assets/img/success.jpg')}}" alt="">
                     <h1 class="display-1"></h1>
                     <h5 class="text-white mt-6 mb-3">{{__('trans.Program Category')}}</h5>
                     <h3 class="text-primary mb-2">{{__('trans.article title')}}2</h3>
 
-                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('programDetails',$lang)}}">
+                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('storyDetails',$lang)}}">
                         {{__('trans.View')}}</a>
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="membership-item position-relative">
-                    <img class="img-fluid" src="{{asset('assets/img/animal-lg-3.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{asset('assets/img/success.jpg')}}" alt="">
                     <h1 class="display-1"></h1>
                     <h5 class="text-white mt-6 mb-3">{{__('trans.Program Category')}}</h5>
                     <h3 class="text-primary mb-2">{{__('trans.article title')}}3</h3>
 
-                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('programDetails',$lang)}}">
+                    <a class="btn btn-outline-light px-4 mt-3" href="{{route('storyDetails',$lang)}}">
                         {{__('trans.View')}}</a>
                 </div>
             </div>

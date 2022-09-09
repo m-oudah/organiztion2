@@ -15,16 +15,16 @@
                 </div>
             </div>
             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                <div class="owl-carousel header-carousel">
+                <div class="owl-carousel header-carousel" style="direction:ltr;">
                     <div class="owl-carousel-item">
-                        <img class="img-fluid" src="{{asset('assets/img/carousel-1.jpg')}}" alt="">
+                        <img class="img-fluid" src="{{asset('assets/img/carousel-1.jpg')}}" style="min-height:520px" alt="">
                     </div>
                     <div class="owl-carousel-item">
-                        <img class="img-fluid" src="{{asset('assets/img/carousel-2.jpg')}}" alt="">
+                    <img class="img-fluid" src="{{asset('assets/img/carousel-3.jpg')}}" style="min-height:520px" alt="">
                     </div>
-                    <div class="owl-carousel-item">
+                    <!-- <div class="owl-carousel-item">
                         <img class="img-fluid" src="{{asset('assets/img/carousel-3.jpg')}}" alt="">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
