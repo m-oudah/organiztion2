@@ -124,7 +124,18 @@ return [
 'Program Details'=>'تفاصيل البرنامج',
 'Success Story Details'=>'تفاصيل قصة ناجحة',
 
+
 'category'=>'الفئة/التصنيف',
+'report title'=>'عنوان التقرير باللغة العربية',
+'download file'=>'اضغط هنا لتحميل الملف',
+'other programs'=>'برامج أخرى',
+'Awards'=>'جوائز ومكافئات',
+'Working Countries'=>'دول نعمل بها',
+'Satisfied Clients'=>'شركاء النجاح',
+'Achieved Projects'=>'مشاريع منجزة',
+'Follow Us On Social Media'=>'لمتابعتنا على مواقع التواصل الاجتماعي',
+''=>'',
+''=>'',
 ''=>'',
 
 
