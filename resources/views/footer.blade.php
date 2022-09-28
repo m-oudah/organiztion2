@@ -29,8 +29,8 @@
                 <div class="col-lg-3 col-md-6">
                     <h6 class="text-light mb-4">{{__('trans.Newsletter')}}</h6>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">{{__('trans.SignUp')}}</button>
                     </div>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                 </div>
                     <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a href="https://cityart.my">CityArt</a>
+                        {{__('trans.Designed By')}}  <a href="https://c-web20.com">C-Web</a>
                     </div>
                 </div>
             </div>
